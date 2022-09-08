@@ -1,0 +1,66 @@
+.products__table {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-self: flex-start;
+
+  border-bottom: 1px solid black;
+
+  padding: 1rem 0;
+}
+
+.products__table .title > img {
+  border-radius: 5px;
+}
+
+.search {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem 0 1rem 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.status.active,
+.status.not {
+  background-color: rgba(117, 184, 117, 0.8);
+  padding: 1rem;
+  color: white;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.status.not {
+  background-color: rgba(194, 42, 42, 0.8);
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  gap: 5px;
+}
+
+.pagination .page-num {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+.pagination .page-num:hover {
+  background-color: rgb(61, 136, 61);
+  color: white;
+}
+
+.pagination .act {
+  background-color: rgb(61, 136, 61);
+}

@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+}
+
+.header__inner {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background-color: rgb(61, 136, 61);
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn.btn-white {
+  background-color: rgb(147, 147, 147);
+}
+
+.header__inner > h1 {
+  font-size: 25px;
+}
+
+.header__inner > h1 > span {
+  font-size: 16px;
+  color: rgb(141, 141, 141);
+}
+
+input {
+  background-color: white;
+}

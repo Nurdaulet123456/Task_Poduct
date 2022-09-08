@@ -1,0 +1,96 @@
+.add__products {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 3rem;
+
+  border-bottom: 1px solid #000;
+}
+
+.add {
+  width: 100%;
+  max-width: 300px;
+}
+
+.add__input__product {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid black;
+
+  border-radius: 6px;
+  margin-bottom: 2rem;
+}
+
+.text {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 5px;
+}
+
+.text:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.price > label {
+  margin: 1rem 0;
+}
+
+.add__file {
+  border: 1px dashed black;
+  padding: 10px 0;
+  border-radius: 6px;
+}
+
+.file-input__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.file__upload-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.file__upload {
+  margin-right: 20px;
+}
+
+.file__upload > img {
+  margin-top: 1rem;
+}
+
+.file-input__label {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 12px;
+  background-color: rgb(61, 136, 61);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+.file-input__label svg {
+  height: 16px;
+  margin-right: 4px;
+}
+
+.buttons {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
